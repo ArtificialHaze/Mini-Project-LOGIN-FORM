@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS,Javascript" />
+    <meta name="author" content="vakho" />
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Main Page</title>
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <section class="main">
+      <div class="container box">
+        <!-- LOGIN -->
+        <div class="login main-container">
+          <div class="login-img img-container">
+            <img src="./login.jpg" alt="LOGIN IMAGE" />
+          </div>
+          <div class="login-form form-container">
+            <form action="#">
+              <h2 class="text-center pb-3">LOGIN</h2>
+              <input
+                placeholder="Username.."
+                type="text"
+                class="form-control form-control-lg mb-3"
+              />
+              <input
+                placeholder="Password.."
+                type="password"
+                class="form-control form-control-lg mb-3"
+              />
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg">Login</button>
+              </div>
+              <a href="#" class="forgot-link">Forgot password?</a>
+              <span> Don't have an account? </span>
+              <a href="#" class="register-link">Register</a>
+            </form>
+          </div>
+        </div>
+        <!-- REGISTER -->
+        <div class="register main-container">
+          <div class="register-form form-container">
+            <form action="#">
+              <h2 class="text-center pb-3">REGISTER</h2>
+              <input
+                placeholder="Username.."
+                type="text"
+                class="form-control form-control-lg mb-3"
+              />
+              <input
+                placeholder="Email.."
+                type="email"
+                class="form-control form-control-lg mb-3"
+              />
+              <input
+                placeholder="Password.."
+                type="password"
+                class="form-control form-control-lg mb-3"
+              />
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg">Register</button>
+              </div>
+              <span>Have an account?</span>
+              <a href="#" class="login-link">Login</a>
+            </form>
+          </div>
+          <div class="register-img img-container">
+            <img src="./register.jpg" alt="REGISTER IMAGE" />
+          </div>
+        </div>
+        <!-- FORGOT -->
+        <div class="forgot main-container">
+          <div class="forgot-form form-container">
+            <form action="#">
+              <h2 class="text-center pb-3">RESET</h2>
+              <input
+                placeholder="Password.."
+                type="password"
+                class="form-control form-control-lg mb-3"
+              />
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg">Reset password</button>
+              </div>
+              <span>We will send you a link.</span>
+            </form>
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div class="forgot-img img-container">
+            <img src="./forgot.jpg" alt="FORGOT IMAGE" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script defer src="./main.js"></script>
+</html>
